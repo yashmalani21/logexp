@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/rain.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cont {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container {
+    margin-top: 10rem;
+    width: 25rem;
+    height: 30rem;
+    background-color: gray;
+    border-radius: 0.4rem;
+}
+
+.tbox {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+}
+
+.button {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    width: 5rem;
+}
